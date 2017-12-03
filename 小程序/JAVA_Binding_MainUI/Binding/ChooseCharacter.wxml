@@ -1,0 +1,13 @@
+<!--ChooseCharater.wxml-->
+<page>
+  <view class="topBoardView">  
+      <image src="背景.jpg" class="topIcon"></image>
+      <image src="灯.png" class="topLight"></image>
+      <image src="线.png" class="topLine"></image>
+      <span class="topTips">请选择您的账号类型</span>
+   </view>
+   <view class="mainView">
+      <button class="teacherButton" >老师</button>
+      <button class="studentButton" >学生</button>
+   </view>
+</page>
