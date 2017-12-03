@@ -10,26 +10,34 @@ html{
   height: 100%;
   background-color: rgba(102, 204, 255, 0.5);  
 }
-/* 灯泡img */
-.user{
-  position:absolute;margin-left: 8%;margin-top: 12%;
-  width:17%;
-  height:30%;
+/* 背景图的view*/
+.PictureDiv{  
+  left: 0rpx;
+  width: 100%;
+  position:relative;
+  height:40em;
 }
 /* 背景img */
 .Picture{
   width:100%;
   height:100%;
 }
+/* 用户img */
+.user{
+  position:absolute;margin-left: 8%;top:8em;
+  width:17%;
+  height:30%;
+}
+
 /*修改头像的备注*/
 .unbindTip{
   color: grey;
   position:absolute;
   font-size: 2.5em;
   left: 7.5%;
-  top: 54%;
+  top: 9em;
 }
-/* 老师姓名 */
+/* 学生姓名 */
 .name{
   margin-left: 32%;
   color: #000000;
@@ -38,10 +46,10 @@ html{
   font-weight: bolder;
   position:absolute;
   z-index:2; 
-  top:7%
+  top:1.5em
 }
-/* 老师姓名 */
-.teacherID{
+/* 学生ID */
+.studentID{
   margin-left: 32%;
   color: #000000;
   margin-top: 18%;
@@ -49,20 +57,14 @@ html{
   font-weight: bolder;
   position:absolute;
   z-index:2; 
-  top:7%
+  top:2em
 }
 
 
-/* 背景图的view*/
-.PictureDiv{  
-  left: 0rpx;
-  width: 100%;
-  position:relative;
-  height:30%;
-}
+
 .lowBox{
   width: 100%;
-  height: 80%;
+  height: 50em;
 
 }
 /*下方的主要选择页面*/
@@ -70,7 +72,7 @@ html{
 {
   background-color: #6cf;
   width:100%;
-  height: 500px;
+  height: 50em;
 }
 /*号的标签*/
 .ID
@@ -79,7 +81,7 @@ html{
   font-size: 2.5em;
   left:15%;
   font-weight: bolder;
-  top:50%;
+  top:25em;
   z-index: 2;
 }
 /*姓名的标签*/
@@ -88,7 +90,7 @@ html{
   position:absolute;
   font-size: 2.5em;
   left:15%;font-weight: bolder;
-  top:70%;
+  top:35em;
   z-index: 2;
 }
 /*学校的标签*/
@@ -97,7 +99,7 @@ html{
   position:absolute;
   font-size: 2.5em;font-weight: bolder;
   left:15%;
-  top:60%;
+  top:30em;
   z-index: 2;
 }
 /*手机*/
@@ -107,7 +109,7 @@ html{
   font-size: 2.5em;
   left:15%;
   font-weight: bolder;
-  top:40%;
+  top:20em;
   z-index: 2;
 }
 /*退出按钮*/
@@ -122,7 +124,7 @@ html{
   border-radius: 0.6em;
   position: absolute;
   left: 20%;
-  top:80%;
+  top:35em;
 }
 /*解绑按钮*/
 .UnbindBtn
@@ -136,5 +138,5 @@ html{
   border-radius: 0.6em;
   position: absolute;
   left: 55%;
-  top:80%;
+  top:35em;
 }

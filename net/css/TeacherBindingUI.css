@@ -1,10 +1,10 @@
 /* TeacherBindingUI.css */
+
 html{
   font-family:"微软雅黑";
   font-size:100px;
   height:100%;
   width: 100%;
-
 }
 .body{
   background-color: rgba(102, 204, 255, 0.5);  
@@ -12,22 +12,9 @@ html{
 }
 /* 灯泡img */
 .bulb{
-  position:absolute;margin-left: 15%;margin-top: 10%;
+  position:absolute;margin-left: 15%;top: 1rem;
   width:9%;
   height:16%;
-}
-.hrDiv {
-  height: 4px;
-  width: 80%;
-  margin: auto;
-  position: absolute;
-  border: 0.5px solid black;
-  background-color: black;
-  color: black;
-  float: left;
-  margin-left: 5%;
-  margin-right: 15%;
-  top:12%;
 }
 /* 背景img */
 .Picture{
@@ -43,7 +30,7 @@ html{
   position:absolute;
   font-weight: bold;
   z-index:2; 
-  top:7%
+  top:1em
 }
 
 /* 背景图的view*/
@@ -51,7 +38,20 @@ html{
   left: 0rpx;
   width: 100%;
   position:relative;
-  height:30%;
+  height:40em;
+}
+.hrDiv {
+  height: 4px;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  border: 0.5px solid black;
+  background-color: black;
+  color: black;
+  float: left;
+  margin-left: 5%;
+  margin-right: 15%;
+  top:2.1rem;
 }
 /*下方的主要选择页面*/
 .mainView
@@ -61,13 +61,13 @@ html{
   height: 100em;
 }
 /*学号的标签*/
-.studentID
+.teacherID
 {
   position:absolute;
   font-size: 3em;
   left:15%;
   font-weight: bolder;
-  top:35%;
+  top:18em;
 }
 /*密码的标签*/
 .Name
@@ -75,7 +75,7 @@ html{
   position:absolute;
   font-size: 3em;
   left:15%;
-  top:45%;
+  top:22em;
   font-weight: bolder;
 }
 /*学校的标签*/
@@ -85,11 +85,11 @@ html{
   position:absolute;
   font-size: 3em;
   left:15%;
-  top:55%;
+  top:26em;
   font-weight: bolder;
 }
 /*学号输入框*/
-.inputstudentID
+.inputteacherID
 {
   position:absolute;
   background: #fff;
@@ -97,8 +97,8 @@ html{
   height: 2em;
   font-size:3em;
   left:35%;
-  top:34.3%;
-  border-radius: 5px;
+  top:17.7em;
+  border-radius: 0.5em;
 }
 /*姓名输入框*/
 .inputName
@@ -109,21 +109,10 @@ html{
   height: 2em;
   font-size:3em;
   left:35%;
-  top:44.3%;
-  border-radius: 5px;
+  top:21.7em;
+  border-radius: 0.5em;
 }
-/*学号输入框*/
-.inputstudentID
-{
-  position:absolute;
-  background: #fff;
-  width: 42%;
-  height: 2em;
-  font-size:3em;
-  left:35%;
-  top:34.3%;
-  border-radius: 5px;
-}
+
 /*学校输入框*/
 .inputSchool
 {
@@ -133,8 +122,8 @@ html{
   height: 2em;
   font-size:3em;
   left:35%;
-  top:54.3%;
-  border-radius: 5px;
+  top:25.7em;
+  border-radius: 0.5em;
 }
 
 .confirmDiv{
@@ -168,10 +157,10 @@ html{
 .tipIcon
 {
   position: absolute;
-  width: 3%;
-  height: 2%;
+  width: 3em;
+  height: 3em;
   left: 38%;
-  top:40%;
+  top:60em;
   z-index: 2;
 }
 /*提示文字自体*/
@@ -182,7 +171,7 @@ html{
   color: red;
   font-weight: bolder;
   left: 43%;
-  top:40%;
+  top:30em;
   z-index: 2;
 }
 /*选择学校按钮*/
@@ -193,7 +182,6 @@ html{
   width: 45px;
   height: 45px;
    margin-left: 71%;
-  top:55.8%;
+  margin-top:38.2em;
   float:left;
-  z-index:2;
 }
