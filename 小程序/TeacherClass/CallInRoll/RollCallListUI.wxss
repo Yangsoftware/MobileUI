@@ -64,29 +64,27 @@ page {
   padding-bottom: 1%;
 }
 
-/*左边的学生块*/
+/*学生列表*/
 
-.studentLeftBlock {
+.studentView{
+  width : 90%;
+  margin-left: 5%;
+  margin-right: 5%；
+}
+
+
+/*学生块*/
+
+.studentBlock {
   background-color: #fff;
-  width: 45%;
+  width: 50%;
   float: left;
   border-radius: 12rpx;
   color: black;
   height: 100rpx;
-  margin-left: 5%;
 }
 
-/*右边的学生块*/
 
-.studentRightBlock {
-  background-color: #fff;
-  width: 45%;
-  float: right;
-  border-radius: 12rpx;
-  color: black;
-  height: 100rpx;
-  margin-right: 5%;
-}
 
 /*学生前面的icon*/
 

@@ -21,21 +21,12 @@
     已签到人员
   </view>
 
-  <!--学生块，分为左边的和右边的，增加学生的时候选择好左边或者
-右边后直接复制就好，之后在span下面修改学生名字-->
-  <view class='studentLeftBlock'>
+  <!--学生块，用整个view包住学生的部分，每次添加新学生能自动排好版，之后在span下面修改学生名字-->
+<view wx:for="{{studentList}}" wx:for-item="item"  class = 'studentView'>
+  <view class='studentBlock'>
     <image src="../../user.png" class='userIcon' />
-    <span class="studentName">杨xx</span>
+    <span class="studentName">{{item.name}}</span>
   </view>
-
-  <view class='studentRightBlock'>
-    <image src="../../user.png" class='userIcon' />
-    <span class="studentName">周xx</span>
-  </view>
-
-  <view class='studentLeftBlock'>
-    <image src="../../user.png" class='userIcon' />
-    <span class="studentName">孙xx</span>
-  </view>
+</view>
 
 </page>
