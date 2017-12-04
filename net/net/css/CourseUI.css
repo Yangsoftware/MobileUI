@@ -1,10 +1,11 @@
+
 html{
     font-family:"微软雅黑";
     font-size:100px;
     height:100%;
     width: 100%;
 }
-body{
+.body{
 	height: 100%;
 }
 .topBox
@@ -16,6 +17,7 @@ body{
 }
 .title
 {
+    font-family:"微软雅黑";
 	font-size: 10em;
 	position: absolute;
 	color: #FFFFFF;
@@ -28,12 +30,13 @@ body{
       top: 0;
       bottom: 0;
 }
-.ninebutton{
-  height: 5em;
-  width: 5em;
-  position:absolute;
-  right:0;
-  top:25em;
+/*九个点的Icon*/
+.ninedotImg{
+	position: absolute;
+	top: 3rem;
+	height: 5em;
+	width: 5em;
+	right:6%;
 }
 
 /*蓝色选择框*/

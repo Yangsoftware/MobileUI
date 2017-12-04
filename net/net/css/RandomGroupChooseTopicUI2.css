@@ -8,6 +8,7 @@ html{
     height:100%;
     width: 100%;
 }
+
 body {
   background: rgba(102, 204, 255, 0.5);
   width: 100%;
@@ -23,7 +24,6 @@ body {
   top:3em;
   position: absolute;
 }
-
 /* 左上角的users图标和文字的容器*/
 
 .blueUsersDiv {
@@ -132,7 +132,7 @@ body {
   float: left;
   font-size: 2.5em;
   margin-left: 3%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 /*选题框右下角的九点按钮*/
@@ -141,7 +141,7 @@ body {
   height: 5em;
   width: 5em;
   float: right;
-  padding-top: 3%;
+  padding-top: 2%;
   padding-right: 3%;
 }
 
@@ -155,7 +155,8 @@ body {
   margin-left: 5%;
   color: black;
   text-align: center;
-  border-radius: 0 0 25px 25px;
+  border-radius:0 0 25px 25px ;  
+
 }
 
 /*选题框下方的选题简介框里的选题标题*/

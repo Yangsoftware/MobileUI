@@ -21,9 +21,9 @@ body {
 /* 左上角的蓝色板的容器*/
 .blueBoardDiv {
     width: 30em;
-    height: 30em;
+    height: 25em;
     float: left;
-    padding-top: 7em;
+    margin-top: 10em;
     padding-left: 10%;
 }
 
@@ -35,12 +35,12 @@ body {
 
 /* 班级名的位置、字体等样式 */
 .classNameDiv {
-    margin-top: 13%;
+    margin-top: 2em;
     margin-left: 0.66%;
     margin-right: 4%;
     width: 40%;
     height: 7.5%;
-    font-size: 5em;
+    font-size: 7em;
     float: left;
     padding-left: 5.3%;
 }
@@ -80,20 +80,20 @@ body {
     float: right;
     width: 90%;
     height: 4%;
-    border-radius: 6px;
+    border-radius: 0.5em;
     color: black;
     margin-right: 5%;
     margin-top: 3em;
     padding-bottom: 1%;
-    height:5em;
+    height:6em;
 }
 
 /* 蓝条的文字 */
 .barText{
-   font-size: 2.5em;
+   font-size:3em;
    margin-left: 2%;
    margin-top: 0.5em;
-   height: 5em;
+   height: 6em;
 }
 /*左边的学生块*/
 .studentLeftBlock {
@@ -102,7 +102,7 @@ body {
     float: left;
     border-radius: 2em;
     color: black;
-    height: 10em;
+    height: 12em;
     margin-left: 5%;
 }
 
@@ -113,7 +113,7 @@ body {
     float: right;
     border-radius: 2em;
     color: black;
-    height: 10em;
+    height: 12em;
     margin-right: 5%;
 }
 
@@ -127,7 +127,7 @@ body {
 /*学生名字的文本*/
 .studentName {
     float: left;
-    font-size: 2.5em;
+    font-size: 3em;
     margin-left: 20%;
     margin-top: 6%;
 }
