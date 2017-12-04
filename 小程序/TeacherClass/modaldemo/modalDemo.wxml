@@ -1,0 +1,39 @@
+<page>
+  <button type='primary' bindtap='showmodalimg'> 弹窗</button>
+
+  <!--弹窗-->
+  <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+  <view class="modal-dialog" wx:if="{{showModal}}">
+    <view class="modal-title">添加学生</view>
+    <view class="modal-content">
+      <scroll-view scroll-y style="height: 100px;" scroll-into-view="red" scroll-top="100">
+        <view class='modal-list'>
+          <span class='input-holder'>邱大明</span>
+        </view>
+        <view class='modal-list'>
+          <span class='input-holder-select'>邱帅明</span>
+        </view>
+        <view class='modal-list'>
+          <span class='input-holder'>邱小明</span>
+        </view>
+        <view class='modal-list'>
+          <span class='input-holder'>邱微明</span>
+        </view>
+        <view class='modal-list'>
+          <span class='input-holder'>邱瘦明</span>
+        </view>
+        <view class='modal-list'>
+          <span class='input-holder'>邱胖明</span>
+        </view>   
+      </scroll-view>
+    </view>
+
+    <view class="modal-footer">
+      <view class="btn-cancel" bindtap="onCancel">取消</view>
+      <view class="btn-confirm" bindtap="onConfirm">确定</view>
+    </view>
+  </view>
+
+
+
+</page>
