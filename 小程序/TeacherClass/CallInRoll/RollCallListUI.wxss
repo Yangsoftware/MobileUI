@@ -29,13 +29,10 @@ page {
 
 .classNameView {
   margin-top: 90rpx;
-  margin-left: 5rpx;
-  margin-right: 30rpx;
-  width: 300rpx;
+  width: 400rpx;
   height: 100rpx;
   font-size: 80rpx;
   float: right;
-  padding-left: 40rpx;
 }
 
 /* 签到人数的位置、字体等样式*/
