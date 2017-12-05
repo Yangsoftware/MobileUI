@@ -9,9 +9,21 @@
 <title>Untitled Document</title>
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="../css/GroupInfoUI2.css" rel="stylesheet" type="text/css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    $(document).ready(function(e) {
+        function addStu() {
+        $("#new").modal("show");
+    }
+    $("div").on('click', '.addIcon', addStu);
+    });
+    </script>
+    
 </head>
 
-<body>
+
+<body  class="container" id="container">
 <!--设置左上角的usersIcon-->
 <div class="blueUsersDiv">
     <img src="../images/users.png" class='blueUsersIcon' style="float: left"/>
@@ -63,8 +75,30 @@
 
 <!--空白添加学生的块-->
 <div class='studentRightBlock'>
-    <img src="../images/add.png" class='addIcon'/>
+        <img src="../images/add.png" class='addIcon'/>
+
 </div>
+
+<!-- 模态框（Modal） -->
+    <div class="modal fade modalstyle" id="new" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title modaltitle" id="myModalLabel">学生添加</h4>
+                </div>
+                <div class="modal-body modalbody">
+                	<div class="modallist">张三</div>
+                    <div class="modallist">李四</div>
+                    <div class="modallist">王五</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default modalclosebutton" data-dismiss="modal">关闭</button>
+                    <button id="confirm" type="button" class="btn btn-primary modalconfirmbutton" >确认</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 <!--学生名单上面那个蓝色的bar-->
