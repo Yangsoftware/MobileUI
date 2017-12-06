@@ -30,8 +30,8 @@
 	font-size: 3vw;
 	position: absolute;
 	color: #FFFFFF;
-	margin-left: 73%;
-	margin-top: 8em;
+	right:2em;
+	bottom:2em;
 }
 /* 打分的框 */
 .ScoreBox
@@ -118,10 +118,9 @@
 	font-size: 2.5em;
 	position: absolute;
 	color: #FFFFFF;
-	margin-top: 45%;
+	margin-top: 95%;
 	width: 100%;
 	text-align: center;
-	margin-top: 100%;
 }
 .CallText
 {
